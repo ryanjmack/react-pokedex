@@ -1,0 +1,6 @@
+/***********************************************************************
+* File that contains variables that components van utilize.
+*
+* This is what the import will look like for most component/*.scss files
+* @import "../../stylesheets/variables.scss";
+***********************************************************************/

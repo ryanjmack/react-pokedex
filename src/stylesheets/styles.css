@@ -1,0 +1,21 @@
+/***********************************************************************
+* File that contains basic styles for the page.
+*
+* Styles for individual components are found in their respective
+* directory in src/components
+***********************************************************************/
+/***********************************************************************
+* File that contains variables that components van utilize.
+*
+* This is what the import will look like for most component/*.scss files
+* @import "../../stylesheets/variables.scss";
+***********************************************************************/
+html {
+  box-sizing: border-box;
+  color: #333;
+  font-family: 'Arial', 'Helvetica', sans-serif; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
