@@ -1,0 +1,8 @@
+// example variable.scss import
+@import "../../stylesheets/variables.scss";
+
+
+.App {
+  // Add styles here
+  color: $salmon;
+}
