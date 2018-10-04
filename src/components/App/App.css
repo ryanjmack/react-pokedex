@@ -5,4 +5,6 @@
 * @import "../../stylesheets/variables.scss";
 ***********************************************************************/
 .App {
-  color: salmon; }
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1420px; }
