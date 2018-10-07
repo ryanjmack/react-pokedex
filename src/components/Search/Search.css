@@ -1,0 +1,15 @@
+.Search {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 2.5em auto;
+  max-width: 95vw;
+  width: 100%; }
+  .Search input {
+    border: none;
+    border: 1px solid #888;
+    border-radius: 3px;
+    margin: 0 auto;
+    font-size: 1em;
+    padding: 0.5em;
+    width: 20em; }
