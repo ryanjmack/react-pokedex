@@ -32,7 +32,7 @@ class Pokemon extends React.Component {
     return this.props.results.map((pokemon, i) => {
       return (
         <div className="Pokemon__card" key={i}>
-          <img src={`images/${i + 1}.png`} alt={pokemon.name} onClick={() => this.displayInfo(i + 1)} />
+          <img src={`images/${pokemon.id}.png`} alt={pokemon.name} onClick={() => this.displayInfo(pokemon.id)} />
           <p>{pokemon.name}</p>
         </div>
       )
